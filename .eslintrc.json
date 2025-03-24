@@ -1,29 +1,18 @@
 {
-    "plugins": ["prettier", "import"],
-    "env": {
-        "node": true,
-        "commonjs": true,
-        "es2021": true
-    },
-    "extends": ["airbnb-base", "plugin:prettier/recommended"],
-    "overrides": [
-    ],
-    "parserOptions": {
-        "ecmaVersion": "latest"
-    },
-    "rules": {
-        "quotes": ["error", "single"],
-        "no-console": 0,
-        "prettier/prettier": [
-            "warn",
-            {
-              "singleQuote": true,
-              "tabWidth": 4,
-              "trailingComma": "all",
-              "printWidth": 100,
-              "arrowParens": "avoid",
-              "endOfLine": "auto"
-            }
-        ]
-    }
+  "plugins": ["prettier", "import"],
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "extends": ["airbnb-base", "plugin:prettier/recommended"],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "quotes": ["error", "double"],
+    "no-console": 0,
+    "prettier/prettier": ["warn"]
+  }
 }
